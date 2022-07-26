@@ -1,0 +1,31 @@
+:root {
+    --header-height: 3rem;
+    --fw-semi-bold: 600;
+
+    --hue-color: 224;
+    --first-color: hsl(var(--hue-color), 89%, 60%);
+    --second-color: hsl(var(--hue-color), 56%, 12%);
+
+    --body-font: "Poppins", sans-serif;
+    --fs-big: 2rem;
+    --fs-xl: 1.25rem;
+    --fs-md: 0.938rem;
+    --fs-xs: 0.75rem;
+
+    --space-2: 1rem;
+    --space-4: 2rem;
+    --space-5: 2.5rem;
+    --space-6: 3rem;
+
+    --zi-back: -10;
+    --zi-fixed: 100;
+}
+
+@media screen and (min-width: 968px) {
+    :root {
+        --fs-big: 3.5rem;
+        --fs-xl: 2rem;
+        --fs-md: 1rem;
+        --fs-xs: 0.875rem;
+    }
+}
